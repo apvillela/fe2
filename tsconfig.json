@@ -1,0 +1,21 @@
+
+//let a: number = 1
+//let b: string = 'hello'
+//let c: boolean[] = [true,false]
+
+//any nao e ideal
+//let a: any = 666
+
+//funcoes
+//function saudacao(nome: string): string {
+//  return 'olá' + nome
+//}
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "outDir": "./dist/js",
+    "noEmitOnError": true,
+    "module": "CommonJS",
+    "strict": true,
+    "moduleResolution": "node"
+  }
